@@ -1,0 +1,15 @@
+{
+  "name": "bpmnlint-plugin-julrichkieffer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "bpmnlint rules as preffered by the author",
+  "main": "index.js",
+  "author": {
+    "name": "Julrich Kieffer",
+    "url": "https://github.com/julrichkieffer"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bpmnlint-utils": "^1.0.1"
+  }
+}

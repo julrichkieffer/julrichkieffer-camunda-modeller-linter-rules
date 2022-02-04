@@ -1,7 +1,7 @@
 {
-	"extends": ["bpmnlint:recommended", "plugin:custom/recommended"],
-	"rules": {
-		"label-required": "warn",
-		"custom/no-manual-task": "warn"
-	}
+  "extends": ["bpmnlint:recommended", "plugin:julrichkieffer/recommended"],
+  "rules": {
+    "label-required": "warn",
+    "julrichkieffer/no-manual-task": "warn"
+  }
 }

@@ -1,19 +1,19 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
-  mode: 'development',
-  entry: './client/index.js',
+  mode: "development",
+  entry: "./client/index.js",
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'client.js'
+    path: path.resolve(__dirname, "dist"),
+    filename: "client.js",
   },
   module: {
     rules: [
       {
         test: /\.bpmnlintrc$/i,
-        use: 'bpmnlint-loader',
-      }
-    ]
+        use: "bpmnlint-loader",
+      },
+    ],
   },
-  devtool: 'cheap-module-source-map'
+  devtool: "cheap-module-source-map",
 };
